@@ -5,7 +5,7 @@ import {
   faNode, faPython, faBootstrap
 } from '@fortawesome/free-brands-svg-icons';
 import { SiTypescript, SiMongodb, SiTailwindcss } from 'react-icons/si';
-import MuiIcon from '../assets/MuiICon';
+import MuiIcon from '../assets/MuiIcon';
 
 const About = () => {
   return (
