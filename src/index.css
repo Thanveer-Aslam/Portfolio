@@ -1,0 +1,260 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* === Navbar === */
+.custom-navbar {
+  background-color: #5050FF;
+  padding: 1rem 0;
+}
+
+.nav-logo {
+  color: #DDE2E9;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.nav-links a {
+  color: #DDE2E9;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+.img {
+  width: contain;
+}
+
+
+/* === Hero Section === */
+.hero-section {
+  background-color: #0f172a;
+  color: #cbd5e1;
+  /* padding: 4rem 2rem; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.hero-subtitle {
+  color: #a9aaab;
+  font-weight: bold;
+}
+
+.hero-title {
+  color: white;
+  font-size: 2.25rem;
+}
+
+.hero-role {
+  color: rgb(113, 113, 255);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.btn-primary-custom {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+  background-color: #2563eb;
+}
+
+}
+
+.btn-secondary-custom {
+  background-color: #2d3748;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+
+.about-section {
+  background-color: #0f172a; /* dark navy */
+  color: #cbd5e1; /* slate-300 */
+  padding: 4rem 2rem;
+  font-family: 'Inter', sans-serif;
+}
+.about-section h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.about-section p {
+  font-size: 1.1rem;
+  color: #94a3b8; /* slate-400 */
+  margin-bottom: 2rem;
+}
+.about-section li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.about-section li::marker {
+  color: #38bdf8; /* sky-400 */
+}
+.about-section .highlight {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Experience Section  */
+
+.experiencesection {
+   background-color: #1e293b; /* dark navy */
+  color: #cbd5e1; /* slate-300 */
+  padding: 4rem 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.experiencesection h1 {
+  color: white !important;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.experiencesection li::marker {
+  color: #38bdf8; /* sky-400 */
+}
+
+.experiencesection .highlight {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #0d6efd;
+}
+
+
+
+
+/* Projecy section */
+
+.project-section {
+  background-color: #0f172a; /* dark navy */
+  color: #cbd5e1; /* slate-300 */
+  padding: 4rem 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/* .card-text, .card-title, .card a {
+   color: #f8fafc !important;
+} */
+
+.project-card {
+  width: 18rem;
+  background-color: #E1C21B !important; /* #234F8E */
+   color: #1A1A1A !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+.project-button {
+  background-color: #101820 !important;
+  color: FFFFFF;
+  font-weight: 500;
+}
+.project-button:hover {
+  background-color: #0056b3;
+}
+
+
+.contactsection {
+  background-color: #1c274b; /* dark navy */
+  color: #cbd5e1; /* slate-300 */
+  padding: 4rem 2rem;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+}
+
+input, textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+}
+
+.contact {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.mail {
+  font-family: 'Inter', sans-serif;
+  font-weight: 100 !important;
+  letter-spacing: 1;
+}
+
+.phone {
+  font-family: 'Inter', sans-serif;
+  font-weight: 100 !important;
+  letter-spacing: 1;
+}
+
+@media (max-width: 768px) {
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    width: 100% !important;
+  }
+}
+
+/*
+.floating-nav {
+   position: fixed;
+  top: 50%;
+  right: 10px;  or right: 10px 
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  z-index: 1000;
+}
+
+.icon-btn {
+  width: 60px;
+  height: 100px;
+  /background-color: #cbd5d1; Light gray 
+  color: #6c95ce; Dark text 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+} */
+/* 
+.icon-btn:hover {
+  background-color: #9ca3af;
+} */
+
+
+/* In your main CSS file or App.css */
+body, html, #root {
+  height: 100%;
+  /* overflow-x: hidden; */
+}
