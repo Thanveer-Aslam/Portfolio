@@ -2,33 +2,38 @@ import React from 'react';
 import PraperMedia from '../assets/prapermedia.png';
 import Netflix from '../assets/Netflix-clone.png';
 import ChatApp from '../assets/chatapp.jpg';
-import Moneypool from '../assets/moneypool.jfif';
+import HealthcareDashboard from '../assets/Healthcare Dashboard.jpeg'
+// import Moneypool from '../assets/moneypool.jfif';
 
 const projects = [
   {
     title: "Chat Application",
     image: ChatApp,
-    description: "Real-time chat using Socket.io, room-based messaging, and authentication.",
-    link: "#"
+    description:
+      "Real-time chat using Socket.io, room-based messaging, and authentication.",
+    link: "https://netflix-rust-pi.vercel.app/",
   },
   {
-    title: "Moneypool",
-    image: Moneypool,
-    description: "Group fund management tool with responsive layout and basic features.",
-    link: "#"
+    title: "Healthcare Dashboard",
+    image: HealthcareDashboard,
+    description:
+      "Make a Healthcare Dashboard based on Frontend Asspect and it is visually appeling",
+    link: "#",
   },
   {
     title: "Netflix Clone",
     image: Netflix,
-    description: "A Netflix UI clone with TMDB API integration and dynamic content loading.",
-    link: "#"
+    description:
+      "A Netflix UI clone with TMDB API integration and dynamic content loading.",
+    link: "https://netflix-rust-pi.vercel.app/",
   },
   {
     title: "Praper Media Clone",
     image: PraperMedia,
-    description: "Landing page clone project with responsive sections and smooth scrolling.",
-    link: "#"
-  }
+    description:
+      "Landing page clone project with responsive sections and smooth scrolling.",
+    link: "#",
+  },
 ];
 
 const Project = () => {

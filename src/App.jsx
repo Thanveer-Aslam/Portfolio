@@ -8,7 +8,7 @@ import Experience from './pages/Experience';
 import BackToTop from './components/BackToTop';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react'; // ✅ Import this too
+import { useEffect } from 'react'; 
 import Footer from './components/Footer';
 
 function App() {
