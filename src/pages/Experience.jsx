@@ -16,17 +16,17 @@ const experiences = [
     stack: ["React", "TypeScript", "Bootstrap", "Tailwind", "Git", "Vite", "Figma"]
   },
   {
-    title: "Netflix Clone (Freelance)",
+    title: "Netflix Clone",
     company: "Personal Project",
     date: "Nov 2024",
     details: [
       "Cloned Netflix UI with TMDB API integration",
       "Used reusable components and React Router"
     ],
-    stack: ["React", "Bootstrap", "TMDB API", "Git"]
+    stack: ["React", "Tailwind Css", "TMDB API", "Git"]
   },
   {
-    title: "Chat App (Freelance)",
+    title: "Chat App",
     company: "Personal Project",
     date: "Oct 2024",
     details: [
