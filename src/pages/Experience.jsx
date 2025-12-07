@@ -11,9 +11,17 @@ const experiences = [
       "Built and maintained responsive dashboards using React, Bootstrap, and Tailwind CSS",
       "Collaborated with the design team to implement UI components from Figma",
       "Improved performance by optimizing Vite bundling and lazy loading",
-      "Integrated REST APIs and worked on form validations and state management"
+      "Integrated REST APIs and worked on form validations and state management",
     ],
-    stack: ["React", "TypeScript", "Bootstrap", "Tailwind", "Git", "Vite", "Figma"]
+    stack: [
+      "React",
+      "TypeScript",
+      "Bootstrap",
+      "Tailwind",
+      "Git",
+      "Vite",
+      "Figma",
+    ],
   },
   {
     title: "Netflix Clone",
@@ -21,9 +29,9 @@ const experiences = [
     date: "Nov 2024",
     details: [
       "Cloned Netflix UI with TMDB API integration",
-      "Used reusable components and React Router"
+      "Used reusable components and React Router",
     ],
-    stack: ["React", "Tailwind Css", "TMDB API", "Git"]
+    stack: ["React", "Tailwind Css", "TMDB API", "Git"],
   },
   {
     title: "Chat App",
@@ -31,10 +39,20 @@ const experiences = [
     date: "Oct 2024",
     details: [
       "Real-time chat using Socket.io",
-      "Implemented authentication and room-based messaging"
+      "Implemented authentication and room-based messaging",
     ],
-    stack: ["React", "Node.js", "Socket.io", "Bootstrap", "Git"]
-  }
+    stack: ["React", "Node.js", "Socket.io", "Bootstrap", "Git"],
+  },
+  {
+    title: "Healthcare Dashboard",
+    company: "Personal Project",
+    date: "Oct 2025",
+    details: [
+      "Real-time chat using Socket.ioDesigned and developed a fully responsive healthcare dashboard using React, featuring reusable components, sidebar navigation, appointment scheduling UI, and an interactive 3D human body section with health indicators",
+      "Recreated a professional dashboard based on a reference image with attention to detail, pixel-perfect layout, color consistency, and smooth user experience using React, CSS, and component-based architecture.",
+    ],
+    stack: ["React", "Node.js", "Socket.io", "Bootstrap", "Git"],
+  },
 ];
 
 const Experience = () => {

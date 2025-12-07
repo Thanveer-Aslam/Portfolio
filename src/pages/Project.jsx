@@ -3,6 +3,7 @@ import PraperMedia from '../assets/prapermedia.png';
 import Netflix from '../assets/Netflix-clone.png';
 import ChatApp from '../assets/chatapp.jpg';
 import HealthcareDashboard from '../assets/Healthcare Dashboard.jpeg'
+import { useEffect, useState } from "react";
 // import Moneypool from '../assets/moneypool.jfif';
 
 const projects = [
@@ -12,13 +13,15 @@ const projects = [
     description:
       "Real-time chat using Socket.io, room-based messaging, and authentication.",
     link: "https://netflix-rust-pi.vercel.app/",
+    target: "_blank",
   },
   {
     title: "Healthcare Dashboard",
     image: HealthcareDashboard,
     description:
       "Make a Healthcare Dashboard based on Frontend Asspect and it is visually appeling",
-    link: "#",
+    link: "https://healthcare-orpin-eight.vercel.app/",
+    target: "_blank",
   },
   {
     title: "Netflix Clone",
@@ -26,6 +29,7 @@ const projects = [
     description:
       "A Netflix UI clone with TMDB API integration and dynamic content loading.",
     link: "https://netflix-rust-pi.vercel.app/",
+    target: "_blank",
   },
   {
     title: "Praper Media Clone",
@@ -33,10 +37,19 @@ const projects = [
     description:
       "Landing page clone project with responsive sections and smooth scrolling.",
     link: "#",
+    target: "_blank",
   },
 ];
 
 const Project = () => {
+//   const [repos, setRepos] = useState([]);
+
+//   useEffect(() => {
+//     fetch("https://api.github.com/users/Thanveer-Aslam/repos")
+//       .then((res) => res.json())
+//       .then((data) => setRepos(data));
+//   }, []);
+
   return (
     <div className="project-section container-fluid" id="project">
         <div className='container'>
@@ -65,6 +78,7 @@ const Project = () => {
               <p className="card-text" style={{ fontSize: '0.9rem' }}>{project.description}</p>
               <a
                 href={project.link}
+                target={project.target}
                 className="btn project-button"
                 style={{
                   backgroundColor: '#007bff',
@@ -80,6 +94,20 @@ const Project = () => {
       </div>
       </div>
     </div>
+    // <div>
+    //   <h2>My Projects</h2>
+    //   <div className="projects-grid">
+    //     {repos.map((repo) => (
+    //       <div className="project-card" key={repo.id}>
+    //         <h3>{repo.name}</h3>
+    //         <p>{repo.description}</p>
+    //         <a href={repo.html_url} target="_blank">
+    //           View on GitHub
+    //         </a>
+    //       </div>
+    //     ))}
+    //   </div>
+    // </div>
   );
 };
 
