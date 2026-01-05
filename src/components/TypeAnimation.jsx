@@ -5,7 +5,7 @@ const TextAnimation = () => {
     <TypeAnimation
       sequence={[
         "Frontend Developer, Web Designer & UI/UX Designer",
-        2000, // wait 2s after typing
+        2000, // wait 2s after typing for every time
         "",   // triggers letter-by-letter deletion
         1000  // wait 1s before restarting
       ]}
