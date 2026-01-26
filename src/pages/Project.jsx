@@ -3,6 +3,7 @@ import PraperMedia from '../assets/prapermedia.png';
 import Netflix from '../assets/Netflix-clone.png';
 import ChatApp from '../assets/chatapp.jpg';
 import HealthcareDashboard from '../assets/Healthcare Dashboard.jpeg'
+import Crowdfunding from '../assets/crowdfunding_project.png'
 import { useEffect, useState } from "react";
 // import Moneypool from '../assets/moneypool.jfif';
 
@@ -12,6 +13,14 @@ const projects = [
     image: ChatApp,
     description:
       "Real-time chat using Socket.io, room-based messaging, and authentication.",
+    link: "https://netflix-rust-pi.vercel.app/",
+    target: "_blank",
+  },
+  {
+    title: "Crowdfunding Application",
+    image: Crowdfunding,
+    description:
+      "Real-time cause creattion to support NGO for Cause creation and integrate Stripe payment method to transtion transaction the donor did and donor will receive mail regarding the donation did.",
     link: "https://netflix-rust-pi.vercel.app/",
     target: "_blank",
   },
