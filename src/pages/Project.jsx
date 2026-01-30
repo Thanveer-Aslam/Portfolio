@@ -33,7 +33,7 @@ const projects = [
     target: "_blank",
   },
   {
-    title: "Netflix Clone",
+    title: "Video Dashboard Rendering",
     image: Netflix,
     description:
       "A Netflix UI clone with TMDB API integration and dynamic content loading.",
@@ -41,7 +41,7 @@ const projects = [
     target: "_blank",
   },
   {
-    title: "Praper Media Clone",
+    title: "Responsive design Landing Page",
     image: PraperMedia,
     description:
       "Landing page clone project with responsive sections and smooth scrolling.",
