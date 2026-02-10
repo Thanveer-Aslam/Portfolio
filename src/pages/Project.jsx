@@ -37,7 +37,7 @@ const projects = [
     image: Netflix,
     description:
       "A Netflix UI clone with TMDB API integration and dynamic content loading.",
-    link: "https://netflix-rust-pi.vercel.app/",
+    link: "http://54.241.92.236/",
     target: "_blank",
   },
   {
