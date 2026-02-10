@@ -37,7 +37,7 @@ const projects = [
     image: Netflix,
     description:
       "A Netflix UI clone with TMDB API integration and dynamic content loading.",
-    link: "http://54.241.92.236/",
+    link: "http://ec2-54-241-92-236.us-west-1.compute.amazonaws.com/",
     target: "_blank",
   },
   {
