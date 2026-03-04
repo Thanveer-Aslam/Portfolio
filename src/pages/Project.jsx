@@ -17,11 +17,11 @@ const projects = [
     target: "_blank",
   },
   {
-    title: "Crowdfunding Application",
+    title: "Donation Hub - Crowdfunding Application",
     image: Crowdfunding,
     description:
-      "Real-time cause creattion to support NGO for Cause creation and integrate Stripe payment method to transtion transaction the donor did and donor will receive mail regarding the donation did.",
-    link: "https://healthcare-orpin-eight.vercel.app/",
+      "Developed a full-stack crowdfunding platform using React, Node.js, and MongoDB where creators/NGOs can launch fundraising campaigns and donors can contribute via Razorpay with real-time transaction tracking.",
+    link: "https://donation-platform-client.vercel.app/",
     target: "_blank",
   },
   {
