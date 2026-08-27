@@ -6,7 +6,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company: "Aziwa Infosystem",
-    date: "Dec 2024 - Present",
+    date: "Dec 2024 - June 2026",
     details: [
       "Built and maintained responsive dashboards using React, Bootstrap, and Tailwind CSS",
       "Collaborated with the design team to implement UI components from Figma",
@@ -18,6 +18,8 @@ const experiences = [
       "TypeScript",
       "Bootstrap",
       "Tailwind",
+      "RestAPI",
+      "Azure App Service",
       "Git",
       "Vite",
       "Figma",

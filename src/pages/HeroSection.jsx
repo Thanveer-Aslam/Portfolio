@@ -1,6 +1,6 @@
 // src/pages/HeroSection.jsx
 // import Developer from '../assets/Developer.svg';
-import Myphoto from '../assets/updated photo.png'
+import Myphoto from "../assets/UpdatedPhoto.png";
 import { useState } from 'react';
 import '../index.css';
 import TypeAnimation from '../components/TypeAnimation';
